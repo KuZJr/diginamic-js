@@ -9,6 +9,8 @@ async function SWPop() {
     while (page == true) {
         await axios.get(url)
         .then(function (response) {
+            console.log("Chargement.....");
+            
             for (let i = 0; i < response.data.results.length; ++i) {
                 let planet = new myclass.Planet(response.data.results[i]);
                 planets.push(planet);
