@@ -1,0 +1,52 @@
+.badge-Plante {
+    color: #FFF;
+    background-color: forestgreen;
+}
+
+.badge-Poison {
+    color: #FFF;
+    background-color: darkorchid;
+}
+
+.badge-Feu {
+    color: #FFF;
+    background-color: firebrick;
+}
+
+.badge-Vol {
+    color: #000;
+    background-color: lightsteelblue;
+}
+
+.badge-Eau {
+    color: #FFF;
+    background-color: dodgerblue;
+}
+
+.badge-Electrique {
+    color: #000;
+    background-color: gold;
+}
+
+[class*="badge-"] {
+    box-shadow: 0px 2px 3px 0px #333;
+}
+
+.card-text {
+    max-height: 150px;
+}
+
+.card {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 100%;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.2s, width 0.2s;
+}
+
+.card:hover {
+    background-color: #CCC;
+    /* color: white; */
+    box-shadow: 0px 5px 4px 0px #666;
+    width: 102%;
+}
